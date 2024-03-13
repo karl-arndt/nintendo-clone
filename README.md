@@ -1,2 +1,2 @@
 # nintendo-clone
-cone of nintendo.com
+clone of nintendo.com
