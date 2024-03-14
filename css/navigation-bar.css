@@ -1,0 +1,77 @@
+body {
+  font-family: "Noto Sans";
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(230, 230, 230);
+  overflow: hidden;
+  margin: -10px -10px 0px -10px;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-color: rgb(209, 205, 205);
+}
+
+.nav-bar a {
+    float: left;
+    color: rgb(72, 72, 72);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Noto Sans";
+    font-weight: 800;
+}
+
+.nav-bar a:hover {
+  color: #e4000f;
+}
+
+.nav-bar a.split {
+  float: left;
+  background-color: #e4000f; 
+  color: white;
+  text-decoration: none;
+}
+
+a.split img {
+  float: left;
+  width: 80px;
+}
+
+#left-nav {
+  display: flex;
+}
+
+#left-nav form button, #left-nav form select {
+  background-color: rgb(230, 230, 230);
+  padding: 14px 16px;
+  font-weight: 800;
+}
+
+#left-nav form button {
+  width: 200px;
+  text-align: left;
+  border: none;
+  color: rgb(122, 122, 122);
+}
+
+#left-nav form button i {
+  color: rgb(72, 72, 72);
+}
+
+#categories {
+  color: rgb(72, 72, 72);
+  font-family: "Noto Sans";
+  border: 1px solid rgb(230, 230, 230);
+  outline: none;
+
+}
+
+#left-nav form:hover {
+  color: #e4000f;
+}
+
+#left-nav form select:hover, #left-nav form button:hover {
+  color: #e4000f;
+}

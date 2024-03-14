@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nintendo Cloned Site: Consoles, Games, News and More</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>Nintendo Copied Site: Consoles, Games, News and More</title>
+  <link rel="stylesheet" href="css/navigation-bar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -13,15 +14,27 @@
   <div class="nav-bar">
     <div id="left-nav">
       <div id="home-button">
-        <a href="index.html" class="split">Nintendo</a>
+        <a href="index.html" class="split">
+          <img src="images/logo.png" alt="Nintendo Logo">
+        </a>
       </div>
-      <div id="search-bar"></div>
+      <form action="">
+        <button><i class="fa fa-search"></i> Search</button>
+        <select name="categories" id="categories">
+          <option value="all-categories">All categories</option>
+          <option value="games">Games</option>
+          <option value="hardware">Hardware</option>
+          <option value="merchandise">Merchandise</option>
+          <option value="news-and-events">News & Events</option>
+          <option value="support">Support</option>
+        </select>
+      </form> 
     </div>
     <div id="right-nav">
-      <a href="#support">Support</a>
-      <a href="#wish-list">Wish List</a>
-      <a href="#car">Cart</a>
-      <a href="#log-in">Log in / Sign up</a>
+      <a href="#support"><i class="fa fa-question-circle" aria-hidden="true"></i> Support</a>
+      <a href="#wish-list">&#10084; Wish List</a>
+      <a href="#cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a>
+      <a href="#log-in"><i class="fa fa-user" aria-hidden="true"></i> Log in / Sign up</a>
       <a href="#language">Language</a>
     </div>
   </div>
