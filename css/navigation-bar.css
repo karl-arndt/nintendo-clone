@@ -41,9 +41,19 @@ a.split img {
   display: flex;
 }
 
+#left-nav form {
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+  margin-left: 8px;
+}
+
+#left-nav form:hover {
+  border-bottom: 1px solid #e4000f;
+}
+
 #left-nav form button, #left-nav form select {
   background-color: rgb(230, 230, 230);
-  padding: 14px 16px;
+  padding: 14px 16px 4px 16px;
   font-weight: 800;
 }
 
