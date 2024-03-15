@@ -8,6 +8,6 @@ function extendSearch () {
 }
 
 function removeElements() {
-  document.querySelector('#nav-form').style.border = "none";;
+  document.querySelector('#nav-form').style.border = "none";
   document.querySelector('#right-nav').remove();
 }
