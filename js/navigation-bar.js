@@ -1,0 +1,3 @@
+function navSearchClicked() {
+  prompt('test');
+}
